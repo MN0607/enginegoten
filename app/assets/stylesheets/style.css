@@ -168,6 +168,7 @@ Inquiry
 Footer
 -------------------------------------------*/
 .footer-wrapper {
+  font-size: 1.2rem;
   height: 210;
   padding: 20px 0 20px 0;
   background-color: #DDDDDD;
@@ -187,6 +188,7 @@ Footer
 
 .content-footer-texts {
   color: #707070;
+  height: 135px
 }
 
 .copywrites {
