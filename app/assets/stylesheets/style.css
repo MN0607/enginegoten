@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+/* html=62.5%=10px rem指定を容易に */
+html {
+	font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #FFFFFF;
+}
+
+a {
+	text-decoration: none;
+  color: #707070;
+}
+
+img {
+	max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  font-size: 4.8rem;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h3 {
+  font-size: 3.2rem;
+  color: #FF991D;
+}
+
+h4 {
+  font-size: 1.6rem;
+  color: #707070;
+  margin: 40px 0 8px 0;
+}
+
+.sectionline {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/*
+.wrapper {
+  max-width: 977px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+*/
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+
+/*---全画面表示---*/
+#header img {
+  width: 100%;
+  max-width: 2314px; 
+  object-fit: cover;
+}
+
+#header-content {
+  position: relative;
+}
+
+#header-content-link {
+  position: absolute;
+  bottom: 30px;
+  right: 25px;
+  font-size: 3.2rem;
+}
+
+.header-content-link-elements {
+  margin-bottom: 40px;
+}
+
+#header a {
+  color: #FFFFFF;
+}
+
+/*-------------------------------------------
+Our Mission
+-------------------------------------------*/
+
+
+#mission-content{
+  position: relative;
+  text-align: center;
+}
+
+#missionback {
+  height: 452px;
+}
+
+#content-mission-texts {
+  position: absolute;
+  width: 640px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.content-mission-texts-elements {
+  margin-bottom: 40px;
+}
+
+/*-------------------------------------------
+Business
+-------------------------------------------*/
+#business-content-upper {
+  margin-bottom: 80px;
+}
+
+.business-content {
+  max-width: 977px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-business-text{
+  width: 504px;
+}
+
+.content-business-image {
+  height: 280px;
+}
+
+
+/*-------------------------------------------
+About
+-------------------------------------------*/
+#about-content {
+  position: relative;
+  text-align: center;
+}
+
+#aboutback {
+  width: 100%;
+  height: 648px;
+}
+
+#content-about-texts {
+  position: absolute;
+  width: 336px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.content-about-texts-elements {
+  margin-bottom: 40px;
+}
+
+/*-------------------------------------------
+Inquiry
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+Footer
+-------------------------------------------*/
+.footer-wrapper {
+  height: 210;
+  padding: 20px 0 20px 0;
+  background-color: #DDDDDD;
+}
+
+.footer-content {
+  max-width: 462px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerlogo {
+  width: auto;
+  height: 156px;
+}
+
+.content-footer-texts {
+  color: #707070;
+}
+
+.copywrites {
+  color: #707070;
+  text-align: center;
+}
