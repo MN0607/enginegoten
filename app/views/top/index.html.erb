@@ -1,2 +1,149 @@
-<h1>Top#index</h1>
-<p>Find me in app/views/top/index.html.erb</p>
+<!DOCTYPE html>
+<html lang=“ja”>
+	<head>
+		<meta charset=“utf-8”>
+		<title>Enginegoten</title>
+		<meta name=“viewport” content=“width=device-width, initial-scale=1”>
+		<link rel=“stylesheet” href=“https://yuilibrary.com/yui/docs/cssreset/“>
+		<link rel=“stylesheet” href=css/style.css”>
+	</head>
+
+	<body>
+		<!—- ヘッダー -->
+		<header id=“header” class=“wrapper”>
+			<img src=“img/headerimage.png” alt=“Enginegoten”>
+			<nav>
+				<ul>
+					<li><a href=“#ourmission”>Our Mission-理念</a></li>
+					<li><a href=“#business”>Business-事業内容</a></li>
+					<li><a href=“#about”>About-会社概要</a></li>
+					<li><a href=“#inquiry”>Inquiry-お問い合わせ</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+
+			<!—- OurMission セクション -—>
+			<section id=“ourmission” class=“wrapper”>
+				<h2 class=“section-title”>Our Mission</h2>
+        <img src="sectionline.png" alt="SectionLine">
+        <ul>
+          <li>
+            <h3 class="content-title">&lrtri; Mission</h3>
+            <p>全ての従業員、その家族、仲間、携わる人たちを笑顔にし、社会に貢献出来る最高の技術集団をつくる事を使命とする。</p>
+          </li>
+          <li>
+            <h3 class="content-title">&lrtri; Vision</h3>
+            <p>エンジニアとしての高水準の技術教育だけでなく、魅力的な“ひと”の育成を以ってエンジンゴテンに携わる全てのひとを幸せに。</p>
+          </li>
+          <li>
+            <h3 class="content-title">&lrtri; Value</h3>
+            <p>“従業員の成長＝会社の成長”となる組織をつくり、“ひと”が持つ可能性を最大の価値に転換する。</p>
+          </li>
+        </ul>
+			</section>
+
+			<!—- Business セクション -—>
+			<section id=“business” class=“wrapper”>
+        <h2 class=“section-title”>Business</h2>
+        <img src="sectionline.png" alt="SectionLine">
+        <ul>
+          <li>
+            <div class="content-business-text">
+              <h3 class="content-title">&#9711; 業務委託技術支援(SES)事業</h3>
+              <p>Web開発を行うクライアントの現場に自社エンジニアをアサイン、開発のお手伝いをしています。
+独自のカリキュラムによる教育環境を構築し、自社でイチから育成したエンジニアも多数活躍しています。</p>
+            </div>
+            <img src="businessses.jpg" alt="BusinessSES">
+          </li>
+          <li>
+            <img src="businessservice.jpg" alt="BusinessService">
+            <div class="content-business-text">
+              <h3 class="content-title">&#9711; 接客サービス事業者向け教育プラットフォーム開発事業</h3>
+              <p>グループ企業として培ってきた人材育成のノウハウを活かし、接客サービス事業者向けの教育プラットフォームの開発に取り組んでいます。
+接客サービスの現場における課題である、“教育の質”の差をなくし、従業員全員がモチベーション高く成長していける環境の構築を目指しています。</p>
+            </div>
+          </li>
+        </ul>
+			</section>
+
+			<!―-About セクション -―>
+			<section id=“about” class=“wrapper”>
+        <h2 class=“section-title”>About</h2>
+        <img src="sectionline.png" alt="SectionLine">
+        <ul>
+          <li>
+            <h4 class="content-about-title">会社名</h4>
+            <p>株式会社エンジンゴテン</p>
+          </li>
+          <li>
+            <h4 class="content-about-title">代表者</h4>
+            <p>濱本 木綿子</p>
+          </li>
+          <li>
+            <h4 class="content-about-title">設立</h4>
+            <p>2022年3月</p>
+          </li>
+          <li>
+            <h4 class="content-about-title">資本金</h4>
+            <p>500万円</p>
+          </li>
+          <li>
+            <h4 class="content-about-title">所在地</h4>
+            <p>&#12306;812-0013</p>
+            <p>福岡市博多区博多駅東2-4-17 第六岡部ビル2F</p>
+          </li>
+          <li>
+            <h4 class="content-about-title">事業内容</h4>
+            <p>SES事業、自社開発事業</p>
+          </li>
+        </ul>
+        <!-- googlemapが入ります -->
+			</section>
+
+			<!― Inquiry セクション ―>
+			<section id=“inquiry” class=“wrapper”>
+        <h2 class=“section-title”>Inquiry</h2>
+        <img src="sectionline.png" alt="SectionLine">
+        <div class="Form">
+          <div class="Form-Item">
+            <p class="Form-Item-Label">お名前</p>
+            <input type="text" class="Form-Item-Input" placeholder="田中 太郎">
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label">ふりがな</p>
+            <input type="text" class="Form-Item-Input" placeholder="たなか たろう">
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label">メールアドレス</p>
+            <input type="text" class="Form-Item-Input" placeholder="enginegoten@examle.com">
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label">会社名・学校名・所属</p>
+            <input type="text" class="Form-Item-Input" placeholder="株式会社エンジンゴテン">
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label">お問い合わせ内容</p>
+            <textarea class="Form-Item-Textarea"></textarea>
+          </div>
+          <input type="submit" class="Form-Btn" value="送信">
+        </div>
+			</section>
+		</main>
+
+		<!— フッター —>
+		<footer id=“footer”>
+      <div class="content-footer-logotext">
+        <img src="footerlogo.png" alt="FooterLogo">
+        <div class="content-footer-text">
+          <p>株式会社エンジンゴテン</p>
+          <p>Tel. 092-402-8777</p>
+          <p>福岡市博多区博多駅東2-4-17第六岡部ビル2F</p>
+          <p><a href="#">プライバシーポリシー</a></p>
+        </div>
+      </div>
+      <p>&copy;enginegoten Inc. All rights reserved.</p>
+		</footer>
+	</body>
+</html>
