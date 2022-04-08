@@ -79,7 +79,7 @@
         <h2 class=“section-title”>About</h2>
         <img src="assets/sectionline.png" alt="SectionLine" class="sectionline">
         <div id="about-content">
-          <img src="assets/aboutback.png" alt="AboutBack" id="aboutback">
+          <img src="assets/rainbowback.png" alt="AboutBack" id="aboutback">
           <ul id="content-about-texts">
             <li class="content-about-texts-elements">
               <h4 class="content-about-title">会社名</h4>
@@ -143,15 +143,17 @@
 		</main>
 
 		<!— フッター —>
-		<footer id=“footer”>
+		<footer class=“footer”>
       <div class="footer-wrapper">
         <div class="footer-content">
-          <img src="assets/footerlogo.png" alt="FooterLogo" class="footerlogo">
+          <%= image_tag "footerlogo.png", alt: "FooterLogo", class: "footerlogo" %>
           <div class="content-footer-texts">
             <p>株式会社エンジンゴテン</p>
             <p>Tel. 092-402-8777</p>
             <p>福岡市博多区博多駅東2-4-17第六岡部ビル2F</p>
-            <p class="privacypolicy"><a href="#">プライバシーポリシー</a></p>
+            <p class="privacypolicy">
+              <%= link_to 'プライバシーポリシー', privacypolicy_top_index_path, method: :get %>
+            </p>
           </div>
         </div>
         <p class="copywrites" >&copy;enginegoten Inc. All rights reserved.</p>
