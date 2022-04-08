@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
-  get 'top/index'
   root to: "top#index"
+  resources :top, only: [:index] do
+
+    collection do
+      get 'privacypolicy'
+    end
+    
+  end
+
 end
