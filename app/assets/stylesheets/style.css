@@ -75,9 +75,12 @@ h4 {
   font-size: 3.2rem;
 }
 
+#header a {
+  color: #FFFFFF;
+}
+
 .header-content-link-elements {
   margin-bottom: 40px;
-  color: #FFFFFF;
 }
 
 /*-------------------------------------------
